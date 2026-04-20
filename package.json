@@ -1,0 +1,35 @@
+{
+  "name": "activity-management-api",
+  "version": "1.0.0",
+  "description": "A scalable Activity Management API with Redis caching, WebSockets, Worker Threads, and race condition handling",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "activity",
+    "management",
+    "api",
+    "redis",
+    "websocket",
+    "worker-threads"
+  ],
+  "author": "Saswat Bisi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "pdfkit": "^0.18.0",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
