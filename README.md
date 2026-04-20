@@ -86,18 +86,7 @@ cd activity-management-api
 npm install
 ```
 
-### 2. Configure Environment
-
-Create a `.env` file in the root:
-
-```env
-PORT=3000
-MONGODB_URI=mongodb+srv://YOUR_USER:YOUR_PASSWORD@cluster.mongodb.net/activity-management
-REDIS_URL=redis://default:YOUR_PASSWORD@your-redis-host:PORT
-JWT_SECRET=your_super_secret_key
-```
-
-### 3. Start the Server
+### . Start the Server
 
 ```bash
 # Development
@@ -276,15 +265,8 @@ activity-management-api/
 │
 └── tickets/                     # Generated PDF tickets (gitignored)
 ```
-
 ---
 
 ## 👤 Author
-
 **Saswat Bisi** — MeetMux Capstone Project, 2026
 
----
-
-## 📄 License
-
-ISC
